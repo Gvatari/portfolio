@@ -18,7 +18,6 @@ export const Main = () => {
 };
 
 const StyledMain = styled.div`
-    min-height: 100vh;
     background-color: #afe8af;
 `
 
@@ -32,6 +31,5 @@ const MainTitle = styled.h1`
 
 const Photo = styled.img`
     width: 456px;
-    height: 634px;
     object-fit: cover;
 `

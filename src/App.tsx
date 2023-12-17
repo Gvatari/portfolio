@@ -1,6 +1,6 @@
-// import styled from 'styled-components';
 import { Header } from './layout/header/Header';
 import { Main } from './layout/main/Main';
+import { Section } from './layout/section/Section';
 
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
         <div className="App">
             <Header />
             <Main />
+            <Section />
         </div>
     );
 }
