@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-type NameContainerPropsType = {
-    text: string
+type TitleCardSkillsPropsType = {
+    text?: string
 }
 
-export const NameContainer = (props: NameContainerPropsType) => {
+export const TitleCardSkills = (props: TitleCardSkillsPropsType) => {
     return (
         <StyledNameContainer fontSize={"24px"} >
             {props.text}
@@ -12,10 +12,10 @@ export const NameContainer = (props: NameContainerPropsType) => {
     );
 };
 
-type StyledNameContainerPropsType = {
+type StyledTitleCardSkillsPropsType = {
     fontSize?: string
 }
 
-export const StyledNameContainer = styled.h2<StyledNameContainerPropsType>`
+export const StyledNameContainer = styled.h2<StyledTitleCardSkillsPropsType>`
     font-size: ${props => props.fontSize};
 `

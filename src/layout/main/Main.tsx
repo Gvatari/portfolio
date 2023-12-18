@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FlexWrapper } from "../../components/FlexWrapper";
+import { FlexWrapper } from "../../components/FlexWrapper.styled";
 import photo from "../../assets/images/photo.webp"
 
 export const Main = () => {
@@ -32,4 +32,5 @@ const MainTitle = styled.h1`
 const Photo = styled.img`
     width: 456px;
     object-fit: cover;
+    border-radius: 20px
 `

@@ -1,6 +1,7 @@
 import { Header } from './layout/header/Header';
 import { Main } from './layout/main/Main';
-import { Section } from './layout/section/Section';
+import { MyDescription } from './layout/sections/MyDescription';
+import { Skills } from './layout/sections/Skills';
 
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
         <div className="App">
             <Header />
             <Main />
-            <Section />
+            <Skills />
+            <MyDescription />
         </div>
     );
 }
