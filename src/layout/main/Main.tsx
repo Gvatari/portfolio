@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { FlexWrapper } from "../../components/FlexWrapper.styled";
 import photo from "../../assets/images/photo.webp"
+import { Photo } from "../../components/Photo.styled";
 
 export const Main = () => {
     return (
@@ -11,7 +12,7 @@ export const Main = () => {
                     <Name>I'm Alexey Artyomenko</Name>
                     <MainTitle>I'm frontend developer.</MainTitle>
                 </div>
-                <Photo src={photo} alt="#" />
+                <Photo photoWidth={"456px"} src={photo} alt="#" />
             </FlexWrapper>
         </StyledMain>
     );
@@ -27,10 +28,4 @@ const Name = styled.h2`
 
 const MainTitle = styled.h1`
     
-`
-
-const Photo = styled.img`
-    width: 456px;
-    object-fit: cover;
-    border-radius: 20px
 `
