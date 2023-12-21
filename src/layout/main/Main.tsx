@@ -20,6 +20,7 @@ export const Main = () => {
 
 const StyledMain = styled.div`
     background-color: #afe8af;
+    min-height: 100vh;
 `
 
 const Name = styled.h2`

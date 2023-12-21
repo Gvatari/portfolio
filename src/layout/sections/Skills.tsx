@@ -24,4 +24,5 @@ const StyledSkills = styled.section`
     justify-content: center;
     align-items: center;
     background-color: #74e774;
+    min-height: 100vh;
 `
