@@ -19,7 +19,7 @@ export const Main = () => {
 };
 
 const StyledMain = styled.div`
-    background-color: #afe8af;
+    background: linear-gradient(102deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
     min-height: 100vh;
 `
 

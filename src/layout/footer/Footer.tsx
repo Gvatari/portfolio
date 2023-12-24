@@ -20,7 +20,6 @@ export const Footer = () => {
             <FlexWrapper direction="column" justify="space-between">
                 <UpBox>
                     <Logo />
-                    <span>Notitanic</span>
                     <UpButton role="button" href="#" />
                 </UpBox>
                 <span>Copyright © 2021, Notitanic</span>
