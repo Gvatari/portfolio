@@ -12,7 +12,6 @@ export const Photo = styled.img<PhotoPropsType>`
     width: ${props => props.photoWidth};
     height: ${props => props.photoHeight};
     object-fit: cover;
-    border-radius: 20px;
 
     ${props => props.absolute && css<PhotoPropsType>`
         content: '';
