@@ -2,7 +2,7 @@ import styled from "styled-components";
 import slider from "../../assets/images/slider.webp"
 import { Photo } from "../../components/Photo.styled";
 import { Title } from "../../components/Title";
-import { Icon } from "../../components/icon/Icon";
+import { Icon } from "../../components/Icon";
 
 export const Slider = () => {
     return (

@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { Logo } from "../../components/logo/Logo";
+import { Logo } from "../../components/Logo";
 import { FlexWrapper } from "../../components/FlexWrapper.styled";
-import { Icon } from "../../components/icon/Icon";
+import { Icon } from "../../components/Icon";
 
 export const Footer = () => {
     return (

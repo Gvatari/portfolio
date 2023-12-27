@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Icon } from "../components/icon/Icon";
+import { Icon } from "./Icon";
 import { TitleCardSkills } from "./TitleCardSkills";
 
 type CardSkillsTypeProps = {
@@ -47,5 +47,6 @@ const IconText = styled.span`
     height: 74px;
     display: flex;
     align-items: center;
+    color: #00C4F0;
 `
 

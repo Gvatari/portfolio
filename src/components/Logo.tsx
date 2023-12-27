@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { FlexWrapper } from "../FlexWrapper.styled";
-import { Icon } from "../icon/Icon";
+import { FlexWrapper } from "./FlexWrapper.styled";
+import { Icon } from "./Icon";
 
 export const Logo = () => {
     return (

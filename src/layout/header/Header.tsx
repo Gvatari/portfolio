@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Logo } from "../../components/logo/Logo";
-import { Menu } from "../../components/menu/Menu";
+import { Logo } from "../../components/Logo";
+import { Menu } from "../../components/Menu";
 
 const menuItems = [
     { name: "Home", anchor: "#home" },
