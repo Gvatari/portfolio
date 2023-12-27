@@ -36,13 +36,16 @@ const StyledCardSkills = styled.div`
     justify-content: center;
     align-items: center;
     gap: 34px;
-    width: 270px;
-    height: 270px;
+    width: 224px;
+    height: 224px;
     border-radius: 29px;
     background: #2A2A2A;
 `
 const IconText = styled.span`
     font-size: 48px;
     font-weight: 700;
+    height: 74px;
+    display: flex;
+    align-items: center;
 `
 

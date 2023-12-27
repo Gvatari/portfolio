@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 type MenuPropsType = {
-    menuItems: Array<string>
+    menuItems: Array<{ name: string; anchor: string }>
 }
 export const Menu = (props: MenuPropsType) => {
     return (
@@ -9,7 +9,7 @@ export const Menu = (props: MenuPropsType) => {
             <ul>
                 {props.menuItems.map((item, index) => {
                     return <li key={index}>
-                        <a href="#">{item}</a>
+                        <a href={item.anchor}>{item.name}</a>
                     </li>
                 })}
             </ul>

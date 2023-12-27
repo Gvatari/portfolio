@@ -3,11 +3,13 @@ import { Photo } from "../../components/Photo.styled";
 import photo1 from "../../assets/images/photo-1.webp"
 import photo2 from "../../assets/images/photo-2.webp"
 import photo3 from "../../assets/images/photo-3.webp"
+import { Skills } from "./Skills";
 
-export const MyDescription = () => {
+export const AboutMe = () => {
     return (
-        <StyledDescription>
-            <DescriptionContainer>
+        <StyledAboutMe id="about">
+            <Skills />
+            <AboutMeContainer>
                 <Description>
                     <Photo absolute top={"-28px"} left={"-246px"} photoWidth={"272px"} src={photo1} alt="#" />
                     <h2>About me</h2>
@@ -18,22 +20,21 @@ export const MyDescription = () => {
                     <Photo absolute top={"484px"} left={"-246px"} photoWidth={"272px"} src={photo2} alt="#" />
                     <Photo absolute top={"260px"} left={"400px"} photoWidth={"272px"} src={photo3} alt="#" />
                 </Description>
-            </DescriptionContainer>
-        </StyledDescription>
+            </AboutMeContainer>
+        </StyledAboutMe>
     )
 }
 
-const StyledDescription = styled.section`
+const StyledAboutMe = styled.section`
     display: flex;
     justify-content: center;
-    background-color: #91b791;
+    flex-direction: column;
+    background: linear-gradient(131deg, #414141 0%, #2D2D2D 100.52%);
     min-height: 100vh;
+    padding-bottom: 60px;
 `
 
-const DescriptionContainer = styled.div`
-    width: 1224px;
-    height: 960px;
-    background-color: #e2e0cc;
+const AboutMeContainer = styled.div`
     display: flex;
     justify-content: center;
 `
@@ -41,7 +42,6 @@ const DescriptionContainer = styled.div`
 const Description = styled.div`
     height: fit-content;
     position: relative;
-    background-color: coral;
     border-radius: 14px;
     margin-top: 86px;
     position: relative;
@@ -51,6 +51,8 @@ const Description = styled.div`
         top: -34px;
         left: 78px;
         font-size: 48px;
+        font-weight: 400;
+        color: #E4E4E4;
     }
 
     p {
@@ -59,5 +61,7 @@ const Description = styled.div`
         color: #FFF;
         padding: 63px;
         width: 446px;
+        border-radius: 14px;
+        background: #2C2C2C;
     }
 `

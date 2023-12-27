@@ -69,6 +69,6 @@ const StyledSkills = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #74e774;
-    min-height: 100vh;
+    padding: 0 80px;
+    margin-top: 113px;
 `

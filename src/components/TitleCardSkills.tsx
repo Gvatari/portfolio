@@ -18,4 +18,6 @@ type StyledTitleCardSkillsPropsType = {
 
 export const StyledNameContainer = styled.h2<StyledTitleCardSkillsPropsType>`
     font-size: ${props => props.fontSize};
+    color: #E4E4E4;
+    font-weight: 300;
 `

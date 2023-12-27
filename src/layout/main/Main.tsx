@@ -6,7 +6,7 @@ import { Header } from "../header/Header";
 
 export const Main = () => {
     return (
-        <StyledMain>
+        <StyledMain id="home">
             <Header />
             <FlexWrapper gap={"142px"} justify={"center"} align={"center"}>
                 <MainTextContainer>
@@ -20,8 +20,9 @@ export const Main = () => {
     );
 };
 
-const StyledMain = styled.div`
+const StyledMain = styled.section`
     background: linear-gradient(102deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+    min-height: 100vh;
 `
 
 const MainTextContainer = styled.div`
