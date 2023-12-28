@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { CardSkills } from "../../components/CardSkills";
 import { FlexWrapper } from "../../components/FlexWrapper.styled";
+import { Container } from "../../components/Container.styled";
 
 const skillItems = [
     {
@@ -46,6 +47,7 @@ const skillItems = [
 export const Skills = () => {
     return (
         <StyledSkills>
+            <Container>
             <FlexWrapper justify={"center"} align={"center"} wrap={"wrap"} gap={"30px"}>
                     {skillItems.map((item, index) => (
                     <CardSkills
@@ -60,6 +62,7 @@ export const Skills = () => {
                     />
                 ))}
             </FlexWrapper>
+            </Container>
         </StyledSkills>
     );
 };

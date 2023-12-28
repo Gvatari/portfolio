@@ -2,18 +2,19 @@ import styled from "styled-components";
 import { FlexWrapper } from "../../components/FlexWrapper.styled";
 import photo from "../../assets/images/photo.webp"
 import { Photo } from "../../components/Photo.styled";
+import { Container } from "../../components/Container.styled";
 
 export const Main = () => {
     return (
         <StyledMain id="home">
-            <FlexWrapper gap={"142px"} justify={"center"} align={"center"}>
+            <Container>
                 <MainTextContainer>
                     <span>Hello</span>
                     <Name>I'm Alexey Artyomenko</Name>
                     <MainTitle>I'm frontend developer.</MainTitle>
                 </MainTextContainer>
                 <Photo src={photo} alt="#" />
-            </FlexWrapper>
+            </Container>
         </StyledMain>
     );
 };
@@ -28,6 +29,7 @@ const MainTextContainer = styled.div`
     color: #E4E4E4;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 27px;
 
     span {
