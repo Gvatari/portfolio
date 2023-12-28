@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Logo } from "../../components/Logo";
 import { Menu } from "../../components/Menu";
+import { Container } from "../../components/Container.styled";
 
 const menuItems = [
     { name: "Home", anchor: "#home" },
@@ -12,15 +13,17 @@ const menuItems = [
 export const Header = () => {
     return (
         <StyledHeader>
-            <Logo />
-            <Menu menuItems={menuItems} />
+            <Container>
+                <Logo />
+                <Menu menuItems={menuItems} />
+            </Container>
         </StyledHeader>
     );
 };
 
 const StyledHeader = styled.header`
-    display: flex;
-    justify-content: center;
-    gap: 219px;
+    position: fixed;
+    top: 0;
+    width: 100%;
     padding: 26px 0;
 `

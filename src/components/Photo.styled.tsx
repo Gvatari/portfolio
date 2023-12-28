@@ -14,7 +14,6 @@ export const Photo = styled.img<PhotoPropsType>`
     object-fit: cover;
 
     ${props => props.absolute && css<PhotoPropsType>`
-        content: '';
         position: absolute;
         top: ${props => props.top};
         left: ${props => props.left};

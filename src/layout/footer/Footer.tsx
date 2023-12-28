@@ -36,7 +36,7 @@ export const Footer = () => {
     );
 };
 
-const StyledFooter = styled.section`
+const StyledFooter = styled.footer`
     display: flex;
     justify-content: center;
     background: linear-gradient(131deg, #414141 0%, #2D2D2D 100.52%);
